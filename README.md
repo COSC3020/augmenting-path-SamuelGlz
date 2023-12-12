@@ -32,3 +32,8 @@ accordingly.
 
 What is the worst-case big $\Theta$ complexity of your implementation? Add your
 answer, including your reasoning, to this markdown file.
+
+The runtime analysis would be $\Theta$(|V|+|E|) because in the worse case scenario the algortihm has to traverse every node and every edge.
+And its run time cannot be higher.
+
+
