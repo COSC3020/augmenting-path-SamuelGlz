@@ -1,3 +1,4 @@
+[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-718a45dd9cf7e7f842a935f5ebbe5719a5e09af4491e668f4dbf3b35d5cca122.svg)](https://classroom.github.com/online_ide?assignment_repo_id=12782213&assignment_repo_type=AssignmentRepo)
 # Augmenting Paths
 
 When we talked about the Ford-Fulkerson algorithm to find the maximum flow
@@ -31,3 +32,10 @@ accordingly.
 
 What is the worst-case big $\Theta$ complexity of your implementation? Add your
 answer, including your reasoning, to this markdown file.
+
+The runtime analysis would be $\Theta$(|E|) because in the worse case scenario the algortihm has to traverse edge that exists on the graph, but
+there is a possibility that the graph that we run the algorithm on does not have a connection to a node so we would not have to process the node. 
+An example is a graph with 10 nodes but the start node is isolated so we would not have to go through the other nodes to get the augment path.
+
+
+
