@@ -33,7 +33,9 @@ accordingly.
 What is the worst-case big $\Theta$ complexity of your implementation? Add your
 answer, including your reasoning, to this markdown file.
 
-The runtime analysis would be $\Theta$(|V|+|E|) because in the worse case scenario the algortihm has to traverse every node and every edge.
-And its run time cannot be higher.
+The runtime analysis would be $\Theta$(|E|) because in the worse case scenario the algortihm has to traverse edge that exists on the graph, but
+there is a possibility that the graph that we run the algorithm on does not have a connection to a node so we would not have to process the node. 
+An example is a graph with 10 nodes but the start node is isolated so we would not have to go through the other nodes to get the augment path.
+
 
 
